@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.droidmentor.checkoutflow.CardBackFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/ic_card_back"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/tv_cvv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="XXX"
+                android:minWidth="50dp"
+                android:layout_gravity="right"
+                android:textColor="@color/card_cvv_color"
+                android:textSize="@dimen/header_text" />
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
